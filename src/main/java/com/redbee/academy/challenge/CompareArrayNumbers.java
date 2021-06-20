@@ -33,3 +33,23 @@ public class CompareArrayNumbers {
 			}
 
 		}
+		return maximo;
+
+	}
+
+	public static void main(String[] args) {
+		// CompareArrayNumbers c= new CompareArrayNumbers();
+		List<Integer> a;
+		a = new ArrayList<>();
+		List<Integer> b;
+		b = new ArrayList<>();
+		a.add(50);
+		a.add(100);
+		a.add(10);
+		b.add(30);
+		a.add(180);
+		a.add(80);
+		System.out.println(CompareArrayNumbers.max(a, b));
+
+	}
+}
